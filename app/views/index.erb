@@ -1,0 +1,24 @@
+<div class="container">
+
+  <h1>Tweet</h1>
+  <form action="/tweet" method="post">
+    <input id="tweet" type="text" name="tweet" placeholder="tweet here">
+    <input type="submit" value="Tweet!" class="tweethere">
+  </form>
+  <img src="/images/loader.gif" id="loading1" style="display:none" />
+  <div id="result1"></div>
+</div>
+
+
+<div class="container">
+
+  <h1>Search Twitter</h1>
+  <form action="/tweets" method="post">
+    <input id="name" type="text" name="username" placeholder="username">
+    <input type="submit" value="Search" class="search">
+  </form>
+  <img src="/images/loader.gif" id="loading" style="display:none" />
+
+</div>
+
+<div id="result"></div>

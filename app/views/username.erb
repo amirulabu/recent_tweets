@@ -1,0 +1,9 @@
+<div class="container">
+    <a href="/">reset</a>
+  <h1><%= params[:username] %></h1>
+  <% @tweets.each do |x| %>
+  <a href="<%= x.link %>" target="_new"><p><%= x.text %></p></a>
+  <% end %>
+  <p></p>
+</div>
+
